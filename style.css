@@ -1,0 +1,28 @@
+.cart-icon {
+    position: relative;
+    font-size: 22px;
+  }
+  .cart-icon .badge {
+    position: absolute;
+    top: -2px; /* Adjust for vertical alignment */
+    right: -5px; /* Adjust for horizontal alignment */
+    background-color: rgb(0, 183, 255);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+  }
+
+  a i.fab.fa-whatsapp {
+    font-size: 1.2em; /* Adjust the icon size to match the others */
+    color: #25D366; /* WhatsApp brand color */
+  }
+  
+  a {
+    color: inherit; /* Ensures the link text color matches the rest of the text */
+  }
+  
+  p {
+    margin-bottom: 1rem; /* Ensures uniform spacing between all paragraphs */
+  }
