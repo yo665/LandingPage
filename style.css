@@ -31,8 +31,8 @@
 
 
   .hero {
-    background: linear-gradient(to right, #007bff, #00b894);
-    color: white;
+    background: #f6f4e9;
+    color: black;
     text-align: center;
     padding: 80px 20px;
   }
