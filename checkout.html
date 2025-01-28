@@ -85,74 +85,85 @@
   </div>
 </div>
 
-     <!-- Hero Section -->
-    <div class="hero mt-5">
-        <h1>Welcome to Your Trusted Tax Consultancy</h1>
-        <p>We simplify your tax filing and financial planning with expert services.</p>
-        <a href="#services" class="btn btn-primary btn-lg mt-3">Explore Our Services</a>
-      </div>
-  
-      <!-- Services Section -->
-      <section id="services" class="container py-5">
-        <div class="text-center mb-5">
-          <h2>Our Services</h2>
-          <p class="text-muted">Comprehensive solutions to meet your tax and financial needs.</p>
+      <section class="text-center py-5 mt-5">
+        <div class="wrapper py-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <div class="box shadow-sm">
+                        <div class="box-content">
+                            <h4 class="box-title mb-4">Service Order Summary</h4>
+                            <div class="d-flex mb-4">
+                                <div>
+                                    <h6>Premium Website Development</h6>
+                                    <p class="text-muted mb-0">Package: Enterprise</p>
+                                    <p class="text-muted mb-0">Duration: 3 months</p>
+                                    <p class="fw-bold">$2,999.99</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span>Subtotal</span>
+                                <span>$2,999.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span>Service Fee</span>
+                                <span>$99.99</span>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <span>Tax</span>
+                                <span>$310.00</span>
+                            </div>
+                            <hr>
+                            <div class="d-flex justify-content-between fw-bold">
+                                <span>Total</span>
+                                <span>$3,409.98</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box shadow-sm">
+                        <div class="box-content">
+                            <h4 class="box-title mb-4">Shipping Details</h4>
+                            <form class="validation-form" novalidate>
+                                <div class="mb-3">
+                                    <input type="text" class="input-field" required minlength="2" placeholder="Enter full name">
+                                    <div class="error-message">Please enter your full name</div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" class="input-field" required pattern="[0-9]{10}" placeholder="Enter mobile number">
+                                    <div class="error-message">Please enter a valid 10-digit mobile number</div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="input-field" required placeholder="Enter email address">
+                                    <div class="error-message">Please enter a valid email address</div>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="input-field" rows="3" required minlength="10" placeholder="Enter complete delivery address"></textarea>
+                                    <div class="error-message">Please enter your complete delivery address</div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="input-field" placeholder="Enter GST number">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="input-field" placeholder="Enter company name">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="input-field" rows="2" placeholder="Enter any special instructions"></textarea>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="checkbox-field" id="sameAddress">
+                                    <label class="form-check-label" for="sameAddress">Billing address same as delivery</label>
+                                </div>
+                                <button type="submit" class="btn-submit w-100">Place Order</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div class="card service-card h-100 text-center p-3">
-              <i class="fas fa-file-alt fa-3x text-primary mb-3"></i>
-              <h5 class="card-title">ITR Filing</h5>
-              <p class="card-text">File your Income Tax Returns quickly and efficiently.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card service-card h-100 text-center p-3">
-              <i class="fas fa-hand-holding-usd fa-3x text-primary mb-3"></i>
-              <h5 class="card-title">Financial Advisory</h5>
-              <p class="card-text">Get expert advice on tax savings and financial growth.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card service-card h-100 text-center p-3">
-              <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
-              <h5 class="card-title">GST Filing</h5>
-              <p class="card-text">Seamless GST registration and return filing services.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-  
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials">
-        <div class="container text-center">
-          <h2>What Our Clients Say</h2>
-          <p class="text-muted mb-5">Trusted by thousands of happy clients.</p>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="testimonial">
-                <i class="fas fa-quote-left fa-2x icon mb-3"></i>
-                <p>"Excellent service! Filing my taxes has never been easier."</p>
-                <h6>- John Doe</h6>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <i class="fas fa-quote-left fa-2x icon mb-3"></i>
-                <p>"Great financial advice that helped me save thousands."</p>
-                <h6>- Jane Smith</h6>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="testimonial">
-                <i class="fas fa-quote-left fa-2x icon mb-3"></i>
-                <p>"Highly professional and reliable service. Totally recommend."</p>
-                <h6>- Mark Taylor</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
+        </section> 
 
       <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
@@ -196,13 +207,34 @@
         <div class="row mt-3">
   
           <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Our Services
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Service1</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Service2</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Service3</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Service4</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
               Useful links
             </h6>
             <p>
-              <a href="aboutUs.html" class="text-reset">About Us</a>
+              <a href="#!" class="text-reset">About Us</a>
             </p>
             <p>
               <a href="#!" class="text-reset">Careers</a>
